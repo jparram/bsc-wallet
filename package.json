@@ -4,14 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "set PRIVATE_KEY=0x1aac01e5f4e6baae252984b60e378e5fdff6fc755416fab1386aee5b38ec6d09",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@ethersproject/providers": "^5.5.0",
+    "@pancakeswap-libs/sdk": "^1.0.1",
     "bip39": "^3.0.4",
+    "dotenv": "^10.0.0",
     "ethereumjs-wallet": "^1.0.2",
+    "ethers": "^5.5.1",
     "web3": "^1.6.1"
   }
 }
